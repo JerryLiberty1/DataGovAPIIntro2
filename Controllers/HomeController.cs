@@ -47,7 +47,6 @@ namespace DataGovAPIIntro2.Controllers
                 {
                     // JsonConvert is part of the NewtonSoft.Json Nuget package 
                     //another
-                    //another
                  parks = JsonConvert.DeserializeObject<Parks>(parksData);
                 }
             }
